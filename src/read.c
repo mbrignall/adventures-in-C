@@ -1,3 +1,8 @@
+/* read.c                                                */
+/* Read file contents using CLI argument (filename)      */
+/* Count lines, words and characters and display totals  */
+/* Error if: no argument, no file to open. Close at end. */
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
