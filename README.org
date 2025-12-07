@@ -1,0 +1,8 @@
+#+title: adventures in C
+#+author: mbrignall
+#+date: 2025-12-07
+
+* What is this?
+
+This is my little repo for storing neat functions, file snippets, ideas and explorations. So far nowt much, but it's a start. I've also been using ~gdb~ in emacs. Just getting used to marking breakpoints and stepping through programs. More on that soon.
+
