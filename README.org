@@ -50,3 +50,7 @@ I included a print statement to include the headers for Fahr and Celsius outside
 Write a program to print the corresponding Celsius to Fahrenheit table.
 
 With this I reversed the print statement for the Fahr and Celsius inside the while loop and the arguments so the calculation remained the same but the print order was ordered correctly.
+
+*** Exercise 1-5
+
+Introducing Symbolic Constants and a good opportunity to refactor the older code with new example of 'for loop' replacement for the initial 'while' Here I modified the temp converstion table to go in reverse order, this is all achieved in the 'for loop' arguments.
