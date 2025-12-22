@@ -8,12 +8,45 @@ This is my little repo for storing neat functions, file snippets, ideas and expl
 
 * The C Programming Book Exercises
 
-I'm going to be tackling the exercises from this book and along the way will make notes on discoveries, approaches and whatnot.
+I'm going to be tackling the exercises from this book and along the way will make notes on discoveries, approaches and whatnot. Gonna split it into days but loosely formed that way (I may achieve more than a day/block of exercises in a session). 
 
-** Day 1
+** Day 1 (Getting Started)
 
 *** Exercise 1-1
 Hello World done from memory :D
 
 *** Exercise 1-2
 Experiment to find out what happend when ~print~'s argument string contains ~\c~ where ~c~ is some character not listed in the book (the common ones are: ~\n~, ~\t~, ~\b~, ~\\~)
+
+More an observation of errors in the compiler, turns out you can't use ~\~ on a string within ~printf~ it will only accept valid arguments. 
+
+#+begin_src 
+  gcc -Wall -Werror -O0 -g -o ../../../build/print_exp 1-2.c
+  1-2.c: In function ‘main’:
+  1-2.c:6:38: error: unknown escape sequence: '\H' [-Werror]
+    6 |   printf("\H\e\l\l\o\, \W\o\r\l\d!\n");
+      |                                      ^
+  1-2.c:6:38: error: unknown escape sequence: '\l' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\l' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\o' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\,' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\W' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\o' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\l' [-Werror]
+  1-2.c:6:38: error: unknown escape sequence: '\d' [-Werror]
+  cc1: all warnings being treated as errors
+#+end_src
+
+** Day 2 Variables and Arithmetic Expressions
+
+*** Exercise 1-3
+
+Modify the temperature conversion program to print a heading above the table.
+
+I included a print statement to include the headers for Fahr and Celsius outside the while loop.
+
+*** Exercise 1-4
+
+Write a program to print the corresponding Celsius to Fahrenheit table.
+
+With this I reversed the print statement for the Fahr and Celsius inside the while loop and the arguments so the calculation remained the same but the print order was ordered correctly.

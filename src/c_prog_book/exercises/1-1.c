@@ -1,5 +1,9 @@
-/* hello world */
+/* Exercise 1-1 */
+/* Hello, World! */
 
 #include <stdio.h>
 
-int main() { printf("Hello, World!"); }
+int main() {
+  printf("Hello, World!\n");
+  return 0;
+}
