@@ -6,3 +6,14 @@
 
 This is my little repo for storing neat functions, file snippets, ideas and explorations. So far nowt much, but it's a start. I've also been using ~gdb~ in emacs. Just getting used to marking breakpoints and stepping through programs. More on that soon.
 
+* The C Programming Book Exercises
+
+I'm going to be tackling the exercises from this book and along the way will make notes on discoveries, approaches and whatnot.
+
+** Day 1
+
+*** Exercise 1-1
+Hello World done from memory :D
+
+*** Exercise 1-2
+Experiment to find out what happend when ~print~'s argument string contains ~\c~ where ~c~ is some character not listed in the book (the common ones are: ~\n~, ~\t~, ~\b~, ~\\~)
