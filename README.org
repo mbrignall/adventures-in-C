@@ -53,3 +53,11 @@ With this I reversed the print statement for the Fahr and Celsius inside the whi
 *** Exercise 1-5
 
 Introducing Symbolic Constants and a good opportunity to refactor the older code with new example of 'for loop' replacement for the initial 'while' Here I modified the temp converstion table to go in reverse order, this is all achieved in the 'for loop' arguments.
+
+*** Exercise 1-6
+
+Verify that the expression ~getchar() != EOF~ is 0 or 1. I achieved this by setting the variable ~c~ to the expression and then calling the variable in the following print statement.
+
+*** Exercise 1-7
+
+Print the value of EOF. I achieved this by setting the ~c~ variable to EOF and then printing that value. The value is ~-1~.
