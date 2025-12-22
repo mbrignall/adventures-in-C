@@ -37,7 +37,7 @@ More an observation of errors in the compiler, turns out you can't use ~\~ on a 
   cc1: all warnings being treated as errors
 #+end_src
 
-** Day 2 Variables and Arithmetic Expressions
+** Day 2 (Variables and Arithmetic Expressions)
 
 *** Exercise 1-3
 
