@@ -61,3 +61,9 @@ Verify that the expression ~getchar() != EOF~ is 0 or 1. I achieved this by sett
 *** Exercise 1-7
 
 Print the value of EOF. I achieved this by setting the ~c~ variable to EOF and then printing that value. The value is ~-1~.
+
+** Day 3 (Character input and output)
+
+*** Exercise 1-8
+
+Write a program to count blanks, tabs and new lines.
